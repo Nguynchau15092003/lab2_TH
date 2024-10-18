@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="ex5js.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h2>Quiz Application</h2>
+        <form id="quizForm">
+            <div class="question">
+                <p>1. What is the capital of France?</p>
+                <label><input type="radio" name="q1" value="Berlin"> Berlin</label><br>
+                <label><input type="radio" name="q1" value="Madrid"> Madrid</label><br>
+                <label><input type="radio" name="q1" value="Paris"> Paris</label><br>
+                <label><input type="radio" name="q1" value="Rome"> Rome</label>
+            </div>
+
+            <div class="question">
+                <p>2. Which planet is known as the Red Planet?</p>
+                <label><input type="radio" name="q2" value="Earth"> Earth</label><br>
+                <label><input type="radio" name="q2" value="Mars"> Mars</label><br>
+                <label><input type="radio" name="q2" value="Jupiter"> Jupiter</label><br>
+                <label><input type="radio" name="q2" value="Venus"> Venus</label>
+            </div>
+
+            <div class="question">
+                <p>3. What is the largest ocean on Earth?</p>
+                <label><input type="radio" name="q3" value="Atlantic"> Atlantic</label><br>
+                <label><input type="radio" name="q3" value="Indian"> Indian</label><br>
+                <label><input type="radio" name="q3" value="Arctic"> Arctic</label><br>
+                <label><input type="radio" name="q3" value="Pacific"> Pacific</label>
+            </div>
+
+            <button type="button" id="submitButton">Submit</button>
+        </form>
+        <p id="score"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
